@@ -23,20 +23,19 @@ Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisicu
 # Título do Projeto Extremamente Aesthetic ;)
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+O usuário submete um texto, em seguida faz uma pergunta e pede para obter uma resposta. A aplicação responde à pergunta com base no texto.
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+Hugging Face
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+Utilizei a função pipeline da biblioteca Transformers, disponibilizada pelo Hugging Face, informando a tarefa de responder questão, o contexto (o texto a ser interpretado) e a pergunta realizada.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+A cada resposta, o sistema oferece uma resposta com base no texto.
 
 ## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+
 
 ### Exemplos e Insigths
 
