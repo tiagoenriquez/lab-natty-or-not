@@ -26,13 +26,17 @@ Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisicu
 O usuário submete um texto, em seguida faz uma pergunta e pede para obter uma resposta. A aplicação responde à pergunta com base no texto.
 
 ## 🤖 Tecnologias Utilizadas
-Hugging Face
+A biblioteca Transformers, do Hugging Face, para interpretar o texto fornecido pelo usuário.
+Python, para manipular a função pipeline da biblioteca Hugging Face.
+Javascript, para interação com usuário.
 
 ## 🧐 Processo de Criação
-Utilizei a função pipeline da biblioteca Transformers, disponibilizada pelo Hugging Face, informando a tarefa de responder questão, o contexto (o texto a ser interpretado) e a pergunta realizada.
+Utilizei a função pipeline da biblioteca Transformers, disponibilizada pelo Hugging Face, informando a tarefa de responder questão, o contexto (o texto a ser interpretado) e a pergunta realizada.<br>
+Também informei ao pipeline o modelo "pierreguillou/bert-large-cased-squad-v1.1-portuguese" para o Transformers conseguir entender o texto em português e aumentar o grau de acertividade das respostas.
 
 ## 🚀 Resultados
-A cada resposta, o sistema oferece uma resposta com base no texto.
+Uma aplicação disponibilizada no endereço "https://huggingface.co/spaces/tiagoenriquez/interpretador-de-texto-ii", na qual o usuário informa um texto e uma pergunta e recebe uma resposta para a pergunta com base no texto.<br>
+O usuário pode realizar várias perguntas sobre o mesmo texto, visualizar o texto quantas vezes quiser e visualizar uma lista de perguntas já feitas com suas respectivas respostas.
 
 ## 💭 Reflexão (Opcional)
 
